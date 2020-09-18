@@ -1,6 +1,6 @@
 {
   "name": "tacoparse",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A tasty taco utility",
   "main": "index.js",
   "scripts": {
