@@ -1,5 +1,5 @@
 const { expect } = require("chai");
-const { tacoparse } = require("../tacoparse");
+const { tacoparse } = require("../tacoparse.js");
 
 describe("tacoparse", function () {
   it("Should throw an error if given a string input", () => {
