@@ -1,7 +1,7 @@
 {
   "name": "tacoparse",
   "homepage": "https://github.com/sidiousvic/tacoparse#readme",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A tasty taco utility",
   "main": "index.js",
   "scripts": {
