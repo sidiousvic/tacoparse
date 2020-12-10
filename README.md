@@ -11,6 +11,7 @@ Think of a number. 👽 💭
 Give it to the taco machine. 👉🏼 🤖
 
 ```js
+const { tacoparse } = require("tacoparse");
 const wholeLottaTacos = tacoparse(99);
 ```
 
