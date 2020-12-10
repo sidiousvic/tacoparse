@@ -16,7 +16,6 @@ describe("tacoparse", function () {
 
   it("Should return the correct number of tacos", () => {
     const ninetyNineTacoString = tacoparse(999);
-    console.log(ninetyNineTacoString);
     const ninetyNineTacoArray = [...ninetyNineTacoString];
     expect(ninetyNineTacoArray.length).to.equal(999);
   });
