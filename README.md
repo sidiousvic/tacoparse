@@ -1,6 +1,6 @@
 # tacoparse
 
-A utility for parsing integers into tacos. 🌮
+### A utility for parsing integers into tacos. 🌮
 
 Think of a number. 👽 💭
 
