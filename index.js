@@ -1,2 +1,2 @@
-const tacoParse = require("./tacoParse");
-module.exports = tacoParse;
+const { tacoparse } = require("./tacoparse");
+module.exports = { tacoparse };
