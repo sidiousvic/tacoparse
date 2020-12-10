@@ -11,9 +11,10 @@
   },
   "author": "sidiousvic",
   "license": "MIT",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^8.1.3",
+    "mocha": "^8.2.1",
     "prettier": "^2.2.1"
   }
 }
