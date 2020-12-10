@@ -21,12 +21,21 @@ describe("tacoparse", function () {
   });
 
   it("🌮 Should return the taco emoji", () => {
-    const tacoEmojiString = tacoparse(1);
-    expect(tacoEmojiString).to.equal("🌮");
+    const [tacoEmoji] = tacoparse(4);
+    expect(tacoEmoji).to.equal("🌮");
   });
 
   it("🌮 Should return a sad face if the number is zero", () => {
     const tacoEmojiString = tacoparse(0);
     expect(tacoEmojiString).to.equal(":(");
+  });
+
+  it("🌮 Should reprimand low taco orders", () => {
+    const oneTaco = tacoparse(1);
+    const twoTacos = tacoparse(2);
+    const threeTacos = tacoparse(3);
+    expect(oneTaco).to.equal("A ver cabrónx. ¿Veniste a comer, o qué?");
+    expect(twoTacos).to.equal("¿Todo bien, amigx? ¿No quieres más?");
+    expect(threeTacos).to.equal("Uno más... ¡Ándele, no le raje!");
   });
 });
