@@ -4,6 +4,8 @@
   "description": "A tasty taco utility",
   "main": "index.js",
   "scripts": {
+    "preversion": "npm test",
+    "postversion": "git push origin --tags --no-verify",
     "test": "mocha"
   },
   "author": "sidiousvic",
