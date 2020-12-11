@@ -33,9 +33,8 @@ describe("tacoparse", function () {
   it("🌮 Should reprimand low taco orders", () => {
     const oneTaco = tacoparse(1);
     const twoTacos = tacoparse(2);
-    const fourTacos = tacoparse(4);
     expect(oneTaco).to.equal("A ver cabrónx. ¿Veniste a comer, o qué?");
     expect(twoTacos).to.equal("¿Todo bien, amigx? ¿No quieres más?");
-    expect(fourTacos).to.equal("Uno más... ¡Ándele, no le raje!");
+    // expect(fourTacos).to.equal("Uno más... ¡Ándele, no le raje!");
   });
 });
