@@ -1,7 +1,7 @@
 function tacoparse(int) {
   switch (int) {
     case 1:
-      return "A ver cabrónx. ¿Veniste a comer, o qué?";
+      return "A ver cabrónx! ¿Veniste a comer, o qué?";
     case 2:
       return "¿Todo bien, amigx? ¿No quieres más?";
     case 3:
